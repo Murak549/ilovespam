@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="src/css/index.css">
+<link rel="stylesheet" type="text/javascript" href="src/js/script.js">
+<head>
+    <title>I LOVE SPAM</title>
+</head>
+<body>
+    <img class='denwa' src="src/img/idaina.jpg" alt="An image of a flower">
+    <div class="spamTitle">위대한 령도자이신 스팸원수님의 령도아래 온 햄이 뭉칠지어다.</div>
+    <button class="ulikespam" onclick="spam()">ポチッしてspamを受する</button> 
+    <!-- ChatGPT　スゲー -->
+    <script>
+        function spam() {
+            console.log('spam');
+            document.querySelector(".spamTitle").innerHTML = "간악한 왜놈에게 줄 스팸은 없다!";
+            document.querySelector(".spamTitle").innerHTML = "じゃあくなにっぽんじんにあたえるスパムはない！";
+        }
+    </script>
+    <button class="ulikespam" onclick="missileLaunch()">Only Admin</button> 
+    <script>
+        function missileLaunch() {
+            window.location.replace("kokumin.html");
+        }
+    </script>
+</body>

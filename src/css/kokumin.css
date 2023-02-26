@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+.JAlertTitle {
+    text-align: center;
+    color: aliceblue;
+    font-size: 10ch;
+    font-family: 'Noto Serif JP', serif;
+}
+.JAlertText {
+    /* text-align: center; */
+    color: aliceblue;
+    font-size: 4ch;
+    /* font-family: 'Noto Serif JP', serif; */
+}
+.JAlert {
+    text-align: center;
+    color: aliceblue;
+    font-size: 10ch;
+    font-family: 'Noto Serif JP', serif;
+}
+@font-face {
+    font-family: 'KP CHEONLIMA';
+    src: url(../fonts/KCC-KP-CheonRiMa-Bold-KP-2011KPS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #101010;
+}
+.date {
+    text-align: right;
+    margin-top: 15ch;
+}
